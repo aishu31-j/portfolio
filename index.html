@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Data Analyst & Scientist Portfolio</title>
+  <meta name="description" content="Portfolio of a data analyst & scientist with 2+ years of experience across manufacturing, supply chain, and banking." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">Your Name</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary btn-sm">Hire me</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="container hero-inner">
+      <span class="eyebrow">Data Analyst · Data Scientist · Business Analyst</span>
+      <h1>Hi, I'm <span class="gradient-text">Your Name</span><br/>I turn data into business decisions.</h1>
+      <p class="lead">2+ years of experience across <strong>manufacturing, supply chain, and banking</strong> — building dashboards, forecasting models, and analyses that move metrics.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="stats">
+        <div><strong>2+</strong><span>Years experience</span></div>
+        <div><strong>3</strong><span>Industries</span></div>
+        <div><strong>20+</strong><span>Projects shipped</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container two-col">
+      <div>
+        <span class="eyebrow">About</span>
+        <h2>Analytics that drive outcomes.</h2>
+        <p>I'm a data professional with 2+ years of experience across <strong>manufacturing, supply chain, and banking</strong>. I focus on demand forecasting, risk optimization, and translating messy operational data into decisions leaders can act on.</p>
+        <p>From SQL pipelines to ML models and executive dashboards — I love the full journey from raw data to real impact.</p>
+      </div>
+      <div class="skills-card">
+        <h3>Toolkit</h3>
+        <div class="chips">
+          <span>Python</span><span>SQL</span><span>R</span><span>Power BI</span>
+          <span>Tableau</span><span>Excel</span><span>scikit-learn</span><span>Pandas</span>
+          <span>Forecasting</span><span>A/B Testing</span><span>Statistics</span><span>Storytelling</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <span class="eyebrow">Selected work</span>
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-img card-img-1"></div>
+          <h3>Demand Forecasting Engine</h3>
+          <p>Built a time-series model reducing forecast error by 28% for a manufacturing client.</p>
+          <div class="tags"><span>Python</span><span>Prophet</span><span>SQL</span></div>
+        </article>
+        <article class="card">
+          <div class="card-img card-img-2"></div>
+          <h3>Supply Chain Risk Dashboard</h3>
+          <p>Power BI dashboard surfacing supplier risk across 40+ vendors in real time.</p>
+          <div class="tags"><span>Power BI</span><span>DAX</span><span>SQL</span></div>
+        </article>
+        <article class="card">
+          <div class="card-img card-img-3"></div>
+          <h3>Credit Risk Segmentation</h3>
+          <p>Clustering model that improved portfolio segmentation accuracy by 19% for a bank.</p>
+          <div class="tags"><span>scikit-learn</span><span>Python</span><span>Tableau</span></div>
+        </article>
+        <article class="card">
+          <div class="card-img card-img-4"></div>
+          <h3>Customer Churn Analysis</h3>
+          <p>End-to-end churn study driving a retention playbook adopted by 3 business units.</p>
+          <div class="tags"><span>Python</span><span>A/B Testing</span><span>SQL</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <span class="eyebrow">Achievements</span>
+      <h2>Highlights</h2>
+      <div class="grid grid-3">
+        <div class="mini-card"><h3>$1.2M</h3><p>Cost savings unlocked through inventory optimization.</p></div>
+        <div class="mini-card"><h3>28%</h3><p>Reduction in forecast error for a manufacturing client.</p></div>
+        <div class="mini-card"><h3>15+</h3><p>Stakeholders enabled through self-serve dashboards.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-inner">
+      <span class="eyebrow">Contact</span>
+      <h2>Let's build something insightful.</h2>
+      <p>Open to data analyst, data scientist, and business analyst roles.</p>
+      <div class="hero-cta">
+        <a href="mailto:hello@example.com" class="btn btn-primary">Email me</a>
+        <a href="#" class="btn btn-ghost">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">© <span id="y"></span> Your Name. Built with care.</div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
